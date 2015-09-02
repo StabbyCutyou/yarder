@@ -20,10 +20,13 @@ YARDER_OUTPUT_FILE : The file that will hold the tailed data. Include extensions
 YARDER_S3_BUCKET : The S3 bucket to store things in
 YARDER_S3_PATH : Inside of the bucket, the path to keep the cut log file
 
+Additionally, you need to provide the AWS authentication environment values for S3. See the documentation here: https://github.com/aws/aws-sdk-go#configuring-credentials
+
 Roadmap
 =========
 Improve documentation
 Fix whatever bugs probably exist
+Make the readme use proper markdown, since I was too lazy to do it up front
 
 LICENSE
 =========
